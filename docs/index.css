@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@&display=swap");
+
+body {
+	background: black;
+	margin: 0%;
+	font-family: "Roboto", sans-serif;
+}
+
+#main-container {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 90%;
+
+	position: absolute;
+	top: 25%;
+	margin-left: 5%;
+}
+
+#text-content {
+	height: 353px;
+	width: 560px;
+	position: relative;
+}
+#text-content h1 {
+	font-size: 48px;
+	font-weight: bold;
+}
+.buttons-content {
+	height: 353px;
+	width: 50%;
+	border-radius: 20px;
+	background: #3de77c;
+}
+#hr {
+	width: 100px;
+	background: #3de77c;
+	height: 5px;
+	margin-top: -2%;
+	border-radius: 20px;
+}
+#information {
+	width: 100%;
+	margin-top: 5%;
+}
+#information span {
+	display: flex;
+	justify-content: left;
+	font-size: 14px;
+	height: auto;
+}
+a {
+	text-decoration: none;
+}
+#information span a {
+	position: relative;
+	left: 2%;
+	margin-top: -2%;
+	color: white;
+	text-decoration: none;
+}
+
+#information span i {
+	font-size: 22px;
+}
+.cap {
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#buttons-content {
+	background: rgba(61, 231, 124, 0.7);
+
+	width: 353px;
+	border-radius: 20px;
+}
+#buttons-content .button {
+	width: 500px;
+	display: flex;
+
+	margin: 0%;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	background: #302c2c;
+}
+#buttons-content .button {
+	height: 40px;
+	font-size: 14px;
+	width: 180px;
+	display: flex;
+	justify-content: center;
+	margin: 6%;
+	border-radius: 100px;
+	color: white;
+
+	cursor: pointer;
+}
+
+#buttons-content .button i {
+	position: relative;
+	right: 5%;
+
+	border: none;
+
+	font-size: 30px;
+}
+#buttons-content .button p {
+	position: relative;
+
+	left: 5%;
+	font-weight: 200;
+}
+.button-contact {
+	position: relative;
+	left: 18%;
+	top: 5%;
+}
+@media (max-width: 1150px) {
+	#main-container {
+		height: 100%;
+		width: 90%;
+		margin-left: 6%;
+
+		top: 0%;
+		align-items: center;
+	}
+
+	#text-content {
+		padding: 0%;
+		margin: 0%;
+	}
+	#buttons-content {
+		display: inline-block;
+		height: auto;
+	}
+	.button-contact {
+		width: auto;
+		text-align: center;
+		left: 0%;
+	}
+	.button-contact .button {
+		position: relative;
+		left: 17%;
+	}
+}
+
+@media (max-width: 1015px) {
+	#main-container {
+		align-items: center;
+		width: 96%;
+		margin-left: 2%;
+		height: 100%;
+		top: 0%;
+	}
+	#text-content h1 {
+		font-size: 38px;
+		width: 80%;
+	}
+
+	.button-contact .button {
+		position: relative;
+		left: 17%;
+	}
+	.cap {
+		font-size: 19px;
+	}
+	#button-content {
+		display: inline-block;
+		height: 3px;
+	}
+	.button-contact {
+		width: auto;
+		text-align: center;
+		left: 0%;
+	}
+}
+@media (max-width: 951px) {
+	#main-container {
+		width: 100%;
+
+		margin-left: 0%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#text-content {
+		width: 50%;
+	}
+	#text-content h1 {
+		font-size: 30px;
+		margin-top: 10%;
+	}
+	#hr {
+		margin-top: 3%;
+	}
+}
+@media (max-width: 699px) {
+	#text-content h1 {
+		font-size: 30px;
+		margin-top: 10%;
+		position: relative;
+
+		width: 353px;
+	}
+	#text-content {
+		width: 353px;
+		height: 300px;
+	}
+	#hr {
+		position: relative;
+	}
+	#information {
+		position: relative;
+	}
+	@media (max-width: 376px) {
+		#text-content {
+			width: 70%;
+
+			position: relative;
+			top: 1%;
+		}
+		#text-content h1 {
+			font-size: 30px;
+			margin-top: 10%;
+			font-size: 21px;
+			width: 100%;
+			margin-top: 20%;
+		}
+		#buttons-content {
+			width: 60%;
+			top: -10%;
+			position: relative;
+		}
+		#hr {
+			width: 50px;
+		}
+		#information span i {
+			font-size: 13px;
+		}
+		#information span a {
+			font-size: 10px;
+		}
+		#instagram {
+			margin-top: 15%;
+		}
+
+		.cap {
+			font-size: 14px;
+		}
+		#buttons-content .button {
+			width: 60%;
+			height: 30px;
+			left: 0%;
+			left: 14%;
+		}
+		#buttons-content .button i {
+			position: relative;
+			right: 5%;
+
+			border: none;
+
+			font-size: 18px;
+		}
+		#buttons-content .button p {
+			position: relative;
+			font-size: 11px;
+			left: 5%;
+			font-weight: 200;
+		}
+	}
+}
